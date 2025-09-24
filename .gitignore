@@ -1,0 +1,29 @@
+# Entorno virtual
+.venv/
+
+# Archivos de Python
+__pycache__/
+*.py[cod]
+
+# Notebooks de Jupyter
+.ipynb_checkpoints
+
+# Archivos temporales
+*.log
+*.tmp
+
+# IDEs
+.vscode/
+.idea/
+
+# Datos grandes en cualquier proyecto
+*/data/*.csv
+*/data/*.xlsx
+*/data/*.json
+*/data/*.parquet
+
+# Resultados gráficos
+*/results/*.png
+*/results/*.jpg
+*/results/*.pdf
+
