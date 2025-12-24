@@ -21,6 +21,8 @@ __pycache__/
 */data/*.xlsx
 */data/*.json
 */data/*.parquet
+*.json
+*.csv
 
 # Resultados gráficos
 */results/*.png
