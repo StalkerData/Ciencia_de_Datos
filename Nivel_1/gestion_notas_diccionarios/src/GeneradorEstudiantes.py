@@ -1,23 +1,60 @@
 import json
 import random
 
+
 class GeneradorEstudiantes:
     def __init__(self):
         # Listas de nombres, segundos nombres, apellidos y materias
         self.nombres = [
-            "Juan", "Ana", "Luis", "María", "Carlos",
-            "Laura", "Pedro", "Sofía", "Andrés", "Valentina",
-            "Jorge", "Isabella", "Diego", "Gabriela", "Alejandro"
+            "Juan",
+            "Ana",
+            "Luis",
+            "María",
+            "Carlos",
+            "Laura",
+            "Pedro",
+            "Sofía",
+            "Andrés",
+            "Valentina",
+            "Jorge",
+            "Isabella",
+            "Diego",
+            "Gabriela",
+            "Alejandro",
         ]
         self.segundos_nombres = [
-            "David", "María", "Fernando", "Alejandra", "Andrés",
-            "Valentina", "José", "Carolina", "Felipe", "Natalia",
-            "Ricardo", "Daniela", "Javier", "Paula", "Sebastián"
+            "David",
+            "María",
+            "Fernando",
+            "Alejandra",
+            "Andrés",
+            "Valentina",
+            "José",
+            "Carolina",
+            "Felipe",
+            "Natalia",
+            "Ricardo",
+            "Daniela",
+            "Javier",
+            "Paula",
+            "Sebastián",
         ]
         self.apellidos = [
-            "Pérez", "Gómez", "Castro", "Ruiz", "López",
-            "García", "Martínez", "Rodríguez", "Sánchez", "Díaz",
-            "Hernández", "Álvarez", "Moreno", "Jiménez", "Torres"
+            "Pérez",
+            "Gómez",
+            "Castro",
+            "Ruiz",
+            "López",
+            "García",
+            "Martínez",
+            "Rodríguez",
+            "Sánchez",
+            "Díaz",
+            "Hernández",
+            "Álvarez",
+            "Moreno",
+            "Jiménez",
+            "Torres",
         ]
         self.materias = ["Matemáticas", "Inglés", "Programación", "Estadística"]
 
@@ -32,13 +69,15 @@ class GeneradorEstudiantes:
         edad = random.randint(18, 30)
 
         # Generar notas aleatorias para cada materia
-        materias_notas = {materia: round(random.uniform(1.0, 5.0), 1) for materia in self.materias}
+        materias_notas = {
+            materia: round(random.uniform(1.0, 5.0), 1) for materia in self.materias
+        }
 
         return {
             id_estudiante: {
                 "nombre": nombre_completo,
                 "edad": edad,
-                "materias": materias_notas
+                "materias": materias_notas,
             }
         }
 
@@ -50,12 +89,7 @@ class GeneradorEstudiantes:
             estudiantes.update(estudiante)
 
         # Guardar el resultado en un archivo JSON
-        with open(ruta_archivo, 'w', encoding='utf-8') as archivo:
+        with open(ruta_archivo, "w", encoding="utf-8") as archivo:
             json.dump(estudiantes, archivo, indent=4, ensure_ascii=False)
 
         return estudiantes
-
-# Ejemplo de uso
-generador = GeneradorEstudiantes()
-ruta_archivo = "estudiantes.json"  # Cambia esta ruta según tu necesidad
-generador.generar_estudiantes(5, ruta_archivo)

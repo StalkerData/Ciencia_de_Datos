@@ -4,7 +4,7 @@ class ManagerEstudiante:
     @classmethod
     def estudiantes(cls):
         return cls._estudiantes.copy()
-    
+
     @classmethod
     def estudiantes_set(cls, estudiantes):
         cls._estudiantes = estudiantes
@@ -12,7 +12,11 @@ class ManagerEstudiante:
     # funcion para agregar estuciante
     @classmethod
     def agregar_estudiante(cls, codigo, nombre, edad, materias):
-        cls._estudiantes[codigo] = {"nombre": nombre, "edad": edad, "materias": materias}
+        cls._estudiantes[codigo] = {
+            "nombre": nombre,
+            "edad": edad,
+            "materias": materias,
+        }
 
     # funcion para ingrasar enteros
     @staticmethod
