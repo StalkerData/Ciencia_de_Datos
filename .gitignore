@@ -25,6 +25,7 @@ __pycache__/
 *.csv
 
 # Resultados gráficos
+*/results/*
 */results/*.png
 */results/*.jpg
 */results/*.pdf
