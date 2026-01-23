@@ -1,5 +1,7 @@
 # 🎓 Sistema de Gestión de Notas Académicas usando Diccionarios
 
+---
+
 ## 📌 Descripción del Proyecto
 
 Este proyecto implementa un sistema sencillo de gestión y análisis de notas académicas utilizando **diccionarios anidados en Python**.
@@ -147,7 +149,7 @@ El enfoque está en la **claridad del resultado**, no en la visualización avanz
 
 ## 📁 Estructura del Proyecto
 
-```text
+```
 gestion_notas_diccionarios/
 ├── data/
 │   └── estudiantes.json
@@ -157,3 +159,4 @@ gestion_notas_diccionarios/
 │   ├── GeneradorEstudiantes.py
 │   └── ManagerEstudiante.py
 └── requirements.txt
+```

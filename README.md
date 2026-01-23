@@ -1,4 +1,5 @@
 # 🧠 Ciencia de Datos con Python — Ruta de Aprendizaje Progresiva
+---
 
 Repositorio personal de **StalkerData** que documenta una **ruta estructurada de aprendizaje en Ciencia de Datos con Python**, desde los fundamentos hasta niveles avanzados.
 
@@ -51,7 +52,7 @@ Este nivel prioriza **comprensión y razonamiento**, no librerías avanzadas ni 
 - Estadística descriptiva:
   - Media, mediana, moda
   - Varianza y desviación estándar
-- Probabilidad básica
+- Probabilidad básica 
 - Frecuencias absolutas y relativas
 - Comparación entre probabilidad teórica y empírica
 
@@ -60,12 +61,12 @@ Este nivel prioriza **comprensión y razonamiento**, no librerías avanzadas ni 
 ## 🧪 Proyectos desarrollados (Nivel 1)
 
 La estructura del nivel es la siguiente:
-```text
+```
 Ciencia_de_Datos/
-├── Nivel_1/
-│   ├── cripto_analisis/
-│   ├── gestion_notas_diccionarios/
-│   └── lanzamiento_dados/
+└── 📂Nivel_1/
+    ├── 📂cripto_analisis/
+    ├── 📂gestion_notas_diccionarios/
+    └── 📂lanzamiento_dados/
 ```
 ---
 

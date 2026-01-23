@@ -1,4 +1,5 @@
 # 🎲 Simulador de Lanzamiento de Dados
+---
 
 ## 📌 Descripción del Proyecto
 
@@ -81,7 +82,7 @@ Ejemplos de experimentos:
 
 ## 📁 Estructura del proyecto
 
-```text
+```
 lanzamiento_dados/
 ├── notebooks/
 │   └── simulacion_dados.ipynb
@@ -90,3 +91,5 @@ lanzamiento_dados/
 ├── src/
 │   └── simulador.py   # contiene la clase Simulador que ejecuta la simulación
 └── requirements.txt
+```
+---

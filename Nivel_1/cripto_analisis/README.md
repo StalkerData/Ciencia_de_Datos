@@ -1,5 +1,7 @@
 # 🪙 Analizador de Precios Históricos de Criptomonedas
 
+---
+
 ## 📌 Descripción del Proyecto
 
 Este proyecto consiste en el análisis exploratorio de los precios históricos de una criptomoneda (Bitcoin), utilizando un conjunto de datos real en formato CSV.
@@ -113,10 +115,11 @@ Las visualizaciones se realizan utilizando **matplotlib básico**.
 
 ## 📁 Estructura del Proyecto
 
-```text
+```
 cripto_analisis/
 ├── data/
 │   └── BTC-USD (2014-2024).csv
 ├── notebooks/
 │   └── analisis_exploratorio.ipynb
 └── requirements.txt
+```
