@@ -63,7 +63,8 @@ Este nivel prioriza **comprensión y razonamiento**, no librerías avanzadas ni 
 La estructura del nivel es la siguiente:
 ```
 Ciencia_de_Datos/
-└── 📂Nivel_1/
+└── 📂Nivel_1/  
+    ├── 📂consumo_api_clima/
     ├── 📂cripto_analisis/
     ├── 📂gestion_notas_diccionarios/
     └── 📂lanzamiento_dados/

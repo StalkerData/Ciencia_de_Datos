@@ -13,9 +13,11 @@ Adquirir los fundamentos necesarios para:
 - Modelar información usando estructuras de datos.
 - Manipular y analizar datos pequeños y medianos.
 - Aplicar conceptos básicos de probabilidad y estadística.
+- Consumir datos desde archivos y APIs externas.
 - Documentar proyectos y trabajar con control de versiones (Git/GitHub).
 
-Este nivel sienta las bases para niveles posteriores más avanzados (NumPy, Pandas profundo, visualización avanzada, ML).
+Este nivel sienta las bases para niveles posteriores más avanzados  
+(NumPy y Pandas profundo, visualización avanzada, Machine Learning y MLOps).
 
 ---
 
@@ -31,6 +33,7 @@ Este nivel sienta las bases para niveles posteriores más avanzados (NumPy, Pand
   - CSV
   - JSON
   - Pickle
+- Consumo de APIs REST con `requests`.
 - Entornos virtuales (`venv`).
 - Uso de Jupyter Notebook y VS Code.
 - Introducción a Git y GitHub.
@@ -59,9 +62,11 @@ Este nivel sienta las bases para niveles posteriores más avanzados (NumPy, Pand
 
 Los siguientes proyectos tienen como finalidad **demostrar el dominio de los contenidos del nivel**, no la complejidad técnica.
 
+---
+
 ### 📊 1. Analizador de Precios Históricos de Criptomonedas
 - Carga y análisis de datos desde archivos CSV.
-- Limpieza de datos.
+- Limpieza y preparación de datos.
 - Estadística descriptiva básica.
 - Visualización simple con matplotlib.
 - Análisis exploratorio de precios y volumen.
@@ -71,11 +76,11 @@ Los siguientes proyectos tienen como finalidad **demostrar el dominio de los con
 ---
 
 ### 🎓 2. Sistema de Gestión de Notas Académicas
-- Modelado de información usando diccionarios.
-- Gestión de estudiantes y materias.
-- Generación de datos sintéticos.
-- Cálculo de promedios y estadísticas.
-- Análisis académico básico.
+- Modelado de información usando diccionarios anidados.
+- Gestión de estudiantes, materias y calificaciones.
+- Generación de datos sintéticos en formato JSON.
+- Cálculo de promedios por estudiante y por materia.
+- Ordenamiento y análisis académico básico.
 
 📁 Carpeta: `gestion_notas_diccionarios/`
 
@@ -83,7 +88,7 @@ Los siguientes proyectos tienen como finalidad **demostrar el dominio de los con
 
 ### 🎲 3. Simulador de Lanzamiento de Dados
 - Simulación computacional de experimentos aleatorios.
-- Cálculo de frecuencias y probabilidades empíricas.
+- Cálculo de frecuencias absolutas y relativas.
 - Comparación entre probabilidad teórica y experimental.
 - Visualización de distribuciones.
 - Introducción a simulaciones tipo Monte Carlo (nivel básico).
@@ -92,8 +97,23 @@ Los siguientes proyectos tienen como finalidad **demostrar el dominio de los con
 
 ---
 
+### 🌦️ 4. Análisis de Datos Climáticos desde una API Pública
+- Consumo de datos desde una API REST pública (Open-Meteo).
+- Manejo y transformación de datos en formato JSON.
+- Conversión de datos horarios a DataFrames.
+- Análisis estadístico descriptivo de variables climáticas.
+- Visualización básica de series temporales.
+
+📁 Carpeta: `consumo_api_clima/`
+
+---
+
 ## 📌 Notas Importantes
 
 - Los proyectos de este nivel **no utilizan bases de datos ni machine learning**.
-- El enfoque está en **comprender los fundamentos**, no en optimización o escalabilidad.
-- Cada proyecto es **independiente** y está documentado mediante notebooks.
+- El enfoque está en **comprender los fundamentos**, no en optimización ni escalabilidad.
+- Cada proyecto es **independiente**, reproducible y documentado mediante notebooks.
+- Este nivel representa la **base mínima sólida** para avanzar a análisis de datos profesional.
+
+---
+Regresar al [README principal](../README.md) 🏠
