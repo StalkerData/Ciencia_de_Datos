@@ -72,7 +72,7 @@ Los siguientes proyectos tienen como finalidad **demostrar el dominio de los con
 - Análisis exploratorio de precios y volumen.
 
 📁 Carpeta: `cripto_analisis/`
-
+* Analizador de Precios Históricos de Criptomonedas [README](cripto_analisis/README.md) 
 ---
 
 ### 🎓 2. Sistema de Gestión de Notas Académicas
@@ -83,7 +83,7 @@ Los siguientes proyectos tienen como finalidad **demostrar el dominio de los con
 - Ordenamiento y análisis académico básico.
 
 📁 Carpeta: `gestion_notas_diccionarios/`
-
+* Sistema de Gestión de Notas Académicas [README](gestion_notas_diccionarios/README.md) 
 ---
 
 ### 🎲 3. Simulador de Lanzamiento de Dados
@@ -94,7 +94,7 @@ Los siguientes proyectos tienen como finalidad **demostrar el dominio de los con
 - Introducción a simulaciones tipo Monte Carlo (nivel básico).
 
 📁 Carpeta: `lanzamiento_dados/`
-
+* Simulador de Lanzamiento de Dados [README](lanzamiento_dados/README.md) 
 ---
 
 ### 🌦️ 4. Análisis de Datos Climáticos desde una API Pública
@@ -105,7 +105,7 @@ Los siguientes proyectos tienen como finalidad **demostrar el dominio de los con
 - Visualización básica de series temporales.
 
 📁 Carpeta: `consumo_api_clima/`
-
+* Análisis de Datos Climáticos desde una API Pública [README](consumo_api_clima/README.md) 
 ---
 
 ## 📌 Notas Importantes
