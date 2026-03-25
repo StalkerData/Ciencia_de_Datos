@@ -1,5 +1,5 @@
 # 🧠 Ciencia de Datos con Python — Ruta de Aprendizaje Progresiva
----
+
 
 Repositorio personal de **StalkerData** que documenta una **ruta estructurada de aprendizaje en Ciencia de Datos con Python**, desde los fundamentos hasta niveles avanzados.
 
@@ -17,6 +17,11 @@ Actualmente, el repositorio contiene **proyectos correspondientes al Nivel 1**, 
 ---
 
 ## 🌱 Nivel 1 — Fundamentos de Programación y Ciencia de Datos
+
+
+Regresar al **[Nivel 1](Nivel_1/README.md) 🏠**
+
+---
 
 ### 🎯 Objetivo del nivel
 
@@ -88,11 +93,11 @@ Ciencia_de_Datos/
 - 🧠 Nivel 4: Ciencia de Datos profesional y FastAPI
 - ⚙️ Nivel 5: Deep Learning y MLOps
 
-*(Estos niveles se incorporarán progresivamente cuando estén implementados.)*
 
 ---
 
 ## 👤 Autor
 
-**StalkerData**  
+**[StalkerData](https://github.com/StalkerData)**
+
 Repositorio de aprendizaje y crecimiento continuo en Ciencia de Datos con Python.

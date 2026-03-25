@@ -1,4 +1,4 @@
-# 📊 Proyecto 1 — Análisis de Ventas con SQL + Pandas
+# 📊 Análisis de Ventas con SQL + Pandas
 
 **Nivel:** 2 — Manipulación y Análisis de Datos  
 **Repositorio:** Ciencia_de_Datos  
@@ -112,9 +112,12 @@ Se pueden instalar con:
 ```
 pip install -r requirements.txt
 ```
+---
 
 ## 👤 Autor
 
-**StalkerData**
+**[StalkerData](https://github.com/StalkerData)**
 
-Repositorio personal de aprendizaje y desarrollo en **Ciencia de Datos con Python**.
+---
+
+Regresar al **[Principal](../../README.md) 🏠**

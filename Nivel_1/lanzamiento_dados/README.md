@@ -92,7 +92,14 @@ lanzamiento_dados/
 │   └── simulador.py   # contiene la clase Simulador que ejecuta la simulación
 └── requirements.txt
 ```
----
-Regresar al [README principal](../../README.md) 🏠
 
-Regresar al [README Nivel 1](../README.md) 🏠
+---
+
+## 👤 Autor
+
+**[StalkerData](https://github.com/StalkerData)**
+
+---
+Regresar al **[Principal](../../README.md) 🏠**
+
+Regresar al **[Nivel 1](../README.md) 🏠**
