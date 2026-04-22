@@ -101,12 +101,13 @@ Listado de dependencias necesarias para ejecutar el proyecto.
 
 Las librerías necesarias para ejecutar el proyecto son:
 ```
-pandas=2.3.3
-duckdb=1.4.4
-matplotlib=3.10.7
-openpyxl=3.1.5
-requests=2.32.5
-jinja2=3.1.6
+ipykernel==7.0.0
+pandas==2.3.3
+duckdb==1.4.4
+matplotlib==3.10.7
+openpyxl==3.1.5
+requests==2.32.5
+jinja2==3.1.6
 ```
 Se pueden instalar con:
 ```
