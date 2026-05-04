@@ -30,4 +30,5 @@ __pycache__/
 **/data/
 
 # Cache
-*.cache.sqlite
+.cache.sqlite
+*.sqlite
