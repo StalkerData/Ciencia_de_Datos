@@ -168,4 +168,6 @@ class WeatherDataAPI:
 
 if __name__ == "__main__":
     weather = WeatherDataAPI()
-    print(weather.get_summary())
+    print(weather.get_summary()) # ✅
+    print(weather.get_weather_data())  # ✅
+    print(weather.get_daily_aggregates())
