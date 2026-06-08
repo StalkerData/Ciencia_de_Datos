@@ -164,10 +164,3 @@ class WeatherDataAPI:
             raise RuntimeError(
                 f"Las siguientes columnas están completamente vacías: {all_nan_cols}"
             )
-
-
-if __name__ == "__main__":
-    weather = WeatherDataAPI()
-    print(weather.get_summary()) # ✅
-    print(weather.get_weather_data())  # ✅
-    print(weather.get_daily_aggregates())

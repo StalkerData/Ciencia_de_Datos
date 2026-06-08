@@ -1,0 +1,20 @@
+[server]
+# Solo escucha peticiones internas (127.0.0.1)
+address = "127.0.0.1"
+# Puerto por defecto (puedes cambiarlo si quieres)
+port = 8501
+# Deshabilita la navegación por carpetas y otras exposiciones
+enableCORS = false
+enableXsrfProtection = true
+# Evita que se intente abrir una URL externa/pública
+headless = true
+
+[browser]
+# Lo que ya usabas: no enviar estadísticas a Streamlit
+gatherUsageStats = false
+# No abrir el navegador automáticamente al arrancar (opcional)
+serverAddress = "localhost"
+
+[ui]
+# Oculta el menú de "Deploy" y otras opciones de la nube de Streamlit
+hideSidebarNav = true
