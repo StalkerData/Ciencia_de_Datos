@@ -1,5 +1,5 @@
 #! run app
-# streamlit run  dashboard_clima/dashboard/app.py  --server.address=127.0.0.1 --browser.gatherUsageStats=false
+# streamlit run  dashboard/app.py  --server.address=127.0.0.1 --browser.gatherUsageStats=false
 # streamlit run  Nivel_2/dashboard_clima/dashboard/app.py  --server.address=127.0.0.1 --browser.gatherUsageStats=false
 import sys
 import os
